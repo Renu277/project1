@@ -1,0 +1,147 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 12, 2020, 3:19:07 AM
+    Author     : renu
+*/
+body {
+    background-color: #e6e6e6;
+}
+
+div{
+    background-color: snow;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:10px 20px 20px 20px;
+    font-family: tahoma;
+    border-radius: 10px;
+    font-size: 15px;
+}
+h1, h2, h3 {
+    font-family: Georgia;
+}
+
+ h1{
+    color: #092834;
+}
+ h2{
+    color: #1A3E4C;
+}
+
+h3{
+    color: #347B98;
+}
+table {
+    border: 3px solid #1A3E4C;
+    border-collapse: separate;
+}
+th, td {
+    border: 1px double #347B98;
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+}
+ th { background-color: #E4F1F6;
+      color: #092834;
+ }
+ /************************ this below styles are for excersice4 */
+ img{
+     max-width: 100%;
+ }
+ figure{
+margin-left: 0px;
+ }
+
+ .different-font {
+     font-family: georgia;
+     color: #347B98;
+     font-style: italic;
+ }
+ .margins {
+     margin-left: 100px;
+     margin-right: 100px;
+     padding: 20px;
+     border-radius: 10px;
+ }
+ .para1 {
+    background-color: #E4F1F6; 
+ }
+ .para2{
+     background-color: #e6e6e6;
+ }
+ /* css for index page*/
+ a, a:visited{
+     text-decoration: none;
+     color: #1A3E4C;
+     font-weight: bold;
+ }
+ address{
+     text-align: right;
+ }
+ a:hover{
+     text-decoration: underline;
+     color: #347B98;
+ }
+/*excersice 8 css*/
+.list{
+    display: inline-block;
+    border: 1px solid #347B98;
+    padding: 0px;
+    height: 250px;
+    width: 250px;
+    vertical-align: top;
+    margin-right: 20px;
+}
+.list h3{
+    background-color: #E4F1F6;
+    margin-top: 0px;
+    line-height: 2em;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px
+}
+.list ul ul {
+    padding-left: 20px;
+}
+nav, header {
+    margin-bottom: 1em;
+    padding: 10px 10px 10px 20px;
+    background-color: #E4F1F6;
+}
+nav li {
+    display: inline-block;
+}
+nav li a {
+    background-color: #E4F1F6;
+     line-height: 2em;
+      display: block;
+      padding-left: 1em;
+       padding-right: 1em;
+}
+nav ul {
+    padding-left: 0px;
+    margin:0px;
+}
+nav li a:hover {
+   background-color:  #2a6592;
+   color: #E4F1F6;
+   text-decoration: none;
+}
+.images li{
+    display: inline-block;
+    width: 20%;
+    margin-bottom: 2em;
+    margin-right: 2em;
+}
+.images {
+    padding: 0px;
+    margin: 0px;
+}
+.images li img{
+    border: 2px solid #1A3E4C;
+    border-radius: 3px;
+}
+ 
